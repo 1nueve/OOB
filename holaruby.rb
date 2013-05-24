@@ -1,8 +1,8 @@
-print "Cual es tu nombre?"
+print "¿Cual es tu nombre?"
 nombre = gets.chomp
 nombre.upcase!
 
-print "Cual es tu apellido?"
+print "¿Cual es tu apellido?"
 apellido = gets.chomp
 apellido.upcase!
 
