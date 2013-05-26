@@ -1,0 +1,13 @@
+/* Estilos */
+
+*{
+	border: 1px solid #000000;
+}
+
+#wrapper{
+	width: 70%
+}
+
+header{
+	width: 100%
+}
