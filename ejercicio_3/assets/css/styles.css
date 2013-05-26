@@ -5,6 +5,7 @@ body {font-family: 'Oxygen', sans-serif;}
 #wrapper{
 	width: 70%;
 	height: 100%;
+	max-width: 885px;
 	margin: 0 auto;
 }
 
@@ -135,5 +136,132 @@ address p {
 	margin: 0 auto;
 	text-align: center;
 }
+
+
+/*----- RESPONSIVE BREAKPOINTS -----*/
+/* ipad */
+@media screen and (max-width: 768px){ 
+
+	#wrapper{
+		width: 100%;
+	}
+
+	header{
+		width: 25%;
+		display: inline-block;
+		float: left;
+		padding: 5.4% 0 5.1% 0;
+	}
+
+
+	nav ul {
+		margin: 3.2% 0 4% 2.2%;
+	}
+
+	nav ul li {
+		font-family: 'Oxygen', sans-serif;
+	margin: 0 1.3% 1.2% 0;
+	height: 3%;
+	font-size: 1.3em;
+	display: inline-block;
+	}
+
+
+
+	nav #imagen{
+		display: none;
+	}
+	.grid_1{
+		width: 74.7%;
+		display:inline-block;
+		float: left;
+		background: #FF006A;
+		margin: 0;
+		min-height: 0;
+	}
+
+	.grid_2{
+		width: 100%;
+		margin: 0;	
+	}
+
+	.grid_2 .port {
+		width: 30%;
+		display: inline-block;
+		margin-right: 2.5%;
+		margin-bottom: 1.5%;
+		padding-top: 0%;
+	}
+	.port_firts {
+		margin-left: 1.4%;
+	}
+
+	#logo{
+		width: 100%
+	}
+
+}
+/* Iphone */
+@media screen and (max-width: 680px){
+
+	header{
+		width: 100%
+	}
+
+
+	#wrapper{
+		width: 100%;
+	}
+
+	.grid_2, 
+	.grid_1 {
+		width: 100%;
+		min-height: 0;
+		margin: 0;
+
+	}
+
+	#logo{
+		width: 40%
+	}
+
+	nav ul li {
+		font-family: 'Oxygen', sans-serif;
+		margin: 0 0 3.5% 0;
+		height: 8%;
+		font-size: 1.1em;
+		text-align: center;
+		border: 1px solid #000000;
+		border-radius: 23px;
+		background: #19D6E2;
+		padding: 2%;
+	}
+
+	nav ul li:hover{
+		background: #ffffff;
+		color: #000000;
+		font-weight: bold;
+
+	}
+
+	nav ul li a:hover{
+		
+		color: #000000;
+		font-weight: bold;
+
+	}
+
+	nav #imagen{
+	display: none;
+
+	}
+
+	.grid_2 .port{
+		width: 84%;
+		margin-left:8.5%;
+	}
+}
+
+
 
 
