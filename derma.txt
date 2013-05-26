@@ -1,18 +1,20 @@
 ¿que cambios haría en  http://dermamexico.com ?
 
-* Lo primero que noto es que no es responsive, así que empezaría por ahí.
+* Lo primero que noto es que el sitio no es responsive, así que empezaría por ahí.
 
-* En la sección de PROMOCIONES me gustaría proponer un nuevo UI para el tema de los descuentos ya que no le veo mucho sentido que los descuentos esten en esos círculos, creo que se pueden implentar una cuadro de búsqueda por el tipo de descuento, además no me queda claro si tengo que descargar o como voy a hacer válido esos beneficios.
+* En la sección de PROMOCIONES me gustaría proponer un nuevo UI para el tema de los descuentos ya que no le veo mucho sentido que los descuentos estén en esos círculos, creo que se pueden implentar un cuadro de búsqueda por el tipo de descuento, además no me queda claro si tengo que descargar o como voy a hacer válido esos beneficios.
 
-*En el menu principal debajo del la revista hay un espacio en blanco, creo que visualmente ese "hueco" me hace ruido, la solución puede ser que q .oneline le añadamos un width:16%; con esto se ajustan las opciones al ancho del contenedor y elimiamos ese espacio.
+* En el menu principal debajo del la revista hay un espacio en blanco, visualmente ese "hueco" me hace ruido, la solución puede ser que a .oneline le añadamos un width:16%; con esto se ajustan las opciones al ancho del contenedor y eliminamos ese espacio.
 
-* creo que se puede mejorar la parte de social media, me gusta que este fixed pero como que no la siento integrada al diseño, por otra parte eliminaría la palabra "siguenos" y distribuiría los iconos al cuadro celeste, como que queda un espacio abajo.
+* El area social media tiene muchas oportunidades, me gusta que este fixed pero como que no la siento integrada al diseño, por otra parte eliminaría la palabra "síguenos" y distribuiría los iconos al cuadro celeste, como que queda un espacio abajo.
 
-* el area de descarga la revista piel nueva: sería bueno determinar cuanta gente realmente esa esas apps para leer revistas, yo nunca terminado de leer una revista así, en ese caso se me hace mucho más amigable un PDF.
+* Botón de descarga la revista piel nueva: sería bueno determinar cuanta gente realmente esa esas apps para leer revistas, yo nunca terminado de leer una revista así, en ese caso se me hace mucho más amigable descargar un PDF.
 Por otra parte creo que la descarga es una buena oportunidad de hacer crecer nuestra DB, solicitando un registro para descargar ese contenido.
 Si ingreso desde el IPad no puedo ver la revista ¿adivinen porqué?
 
-*Directorio Médico ...
+* Directorio Médico: implementaría un cuadro de búsqueda por ciudad para elminar la lista de los estados.
+de la misma forma quitaría los emails de los médicos, para evitar el spam y colocaría un botón para enviarles un correo directamente desde el sitio.
 
-http://dermamexico.com/sitemap.xml
+SEO: agregaría http://dermamexico.com/sitemap.xml para ayudar a Google a indexar el sitio de una manera más adecuada.
+
 
